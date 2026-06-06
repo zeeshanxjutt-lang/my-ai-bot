@@ -1,0 +1,83 @@
+{
+  "responses": [
+    {
+      "id": 1,
+      "keywords": ["hello", "hi", "hey", "greetings"],
+      "response": "Hello! Welcome to our customer support. How can I help you today?"
+    },
+    {
+      "id": 2,
+      "keywords": ["account", "create account", "sign up"],
+      "response": "To create an account, click the 'Sign Up' button on our homepage. You'll need a valid email and password. Your account will be activated immediately."
+    },
+    {
+      "id": 3,
+      "keywords": ["password", "reset password", "forgot password"],
+      "response": "You can reset your password by clicking 'Forgot Password' on the login page. We'll send a link to your email. For security, this link expires in 24 hours."
+    },
+    {
+      "id": 4,
+      "keywords": ["login", "sign in", "log in", "authentication"],
+      "response": "To log in, visit our login page and enter your email and password. If you've forgotten your password, use the 'Forgot Password' option."
+    },
+    {
+      "id": 5,
+      "keywords": ["billing", "payment", "charge", "invoice"],
+      "response": "For billing questions, visit your account dashboard under 'Billing & Payments'. You can view invoices, payment history, and update payment methods there."
+    },
+    {
+      "id": 6,
+      "keywords": ["subscription", "plan", "upgrade", "downgrade"],
+      "response": "You can manage your subscription in your account settings under 'Subscription'. You can upgrade, downgrade, or cancel anytime. Changes take effect at your next billing cycle."
+    },
+    {
+      "id": 7,
+      "keywords": ["refund", "return", "money back"],
+      "response": "We offer a 30-day money-back guarantee for annual plans. Refunds are processed within 5-7 business days to your original payment method."
+    },
+    {
+      "id": 8,
+      "keywords": ["contact", "email", "phone", "customer service"],
+      "response": "You can reach us via email at support@company.com or call 1-800-SUPPORT. Our support hours are 9 AM - 6 PM EST, Monday through Friday."
+    },
+    {
+      "id": 9,
+      "keywords": ["bug", "error", "issue", "problem", "not working"],
+      "response": "I'm sorry you're experiencing issues. Can you tell me more details about the error or problem you're facing? Our team is here to help."
+    },
+    {
+      "id": 10,
+      "keywords": ["app", "application", "mobile app", "ios", "android"],
+      "response": "Our mobile app is available on iOS (App Store) and Android (Google Play). Search for our company name to download it for free."
+    }
+  ],
+  "fallbackResponses": [
+    "I'm not sure about that topic. Could you rephrase your question or provide more details?",
+    "That's a great question! Let me connect you with a specialist who can help better.",
+    "I didn't quite understand. Can you tell me more about what you need?",
+    "Our team can help with that. Please describe your issue in more detail.",
+    "Thank you for your question. You might find more info in our FAQ section at company.com/faq"
+  ],
+  "commonQuestions": [
+    {
+      "q": "What are your business hours?",
+      "a": "We operate 24/7 with automated support. For live agent assistance, we're available 9 AM - 6 PM EST, Monday through Friday."
+    },
+    {
+      "q": "How long does delivery take?",
+      "a": "Standard delivery takes 5-7 business days. Express shipping available for 2-3 business days delivery."
+    },
+    {
+      "q": "Is my data secure?",
+      "a": "Yes, we use industry-standard encryption and follow GDPR, CCPA, and SOC 2 compliance requirements to protect your data."
+    },
+    {
+      "q": "Do you offer API access?",
+      "a": "Yes, we provide API documentation for Pro and Enterprise plans. Visit docs.company.com to learn more."
+    },
+    {
+      "q": "Can I delete my account?",
+      "a": "Yes, you can request account deletion from your settings. We'll remove your data within 30 days."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Support Bot - Advanced Customer Support",
+  "short_name": "Support Bot",
+  "description": "AI-powered 24/7 customer support chatbot with offline capabilities and message history",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#2563eb",
+  "background_color": "#0f172a",
+  "prefer_related_applications": false,
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><defs><linearGradient id='g'><stop offset='0%' style='stop-color:%232563eb'/><stop offset='100%' style='stop-color:%231d4ed8'/></linearGradient></defs><rect fill='url(%23g)' width='192' height='192' rx='40'/><text x='96' y='130' font-size='100' font-weight='bold' fill='white' text-anchor='middle' font-family='system-ui'>?</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><defs><linearGradient id='g'><stop offset='0%' style='stop-color:%232563eb'/><stop offset='100%' style='stop-color:%231d4ed8'/></linearGradient></defs><rect fill='url(%23g)' width='512' height='512' rx='100'/><text x='256' y='380' font-size='280' font-weight='bold' fill='white' text-anchor='middle' font-family='system-ui'>?</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><defs><linearGradient id='g'><stop offset='0%' style='stop-color:%232563eb'/><stop offset='100%' style='stop-color:%231d4ed8'/></linearGradient></defs><rect fill='url(%23g)' width='192' height='192'/><text x='96' y='130' font-size='100' font-weight='bold' fill='white' text-anchor='middle' font-family='system-ui'>?</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><defs><linearGradient id='bg' x2='0' y2='100%'><stop offset='0%' style='stop-color:%230f172a'/><stop offset='100%' style='stop-color:%231e293b'/></linearGradient></defs><rect fill='url(%23bg)' width='540' height='720'/><rect fill='%232563eb' width='540' height='80'/><text x='30' y='50' font-size='28' font-weight='bold' fill='white' font-family='system-ui'>Support Bot</text><circle cx='100' cy='200' r='50' fill='%232563eb' opacity='0.2'/><text x='30' y='250' font-size='20' fill='white' font-family='system-ui'>Advanced Support</text><text x='30' y='280' font-size='16' fill='%2394a3b8' font-family='system-ui'>96,000+ knowledge base</text><rect x='30' y='320' width='480' height='60' rx='12' fill='%231e293b' stroke='%232563eb' stroke-width='2'/><text x='280' y='355' font-size='14' fill='%2994a3b8' text-anchor='middle' font-family='system-ui'>Instant answers 24/7</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Chat",
+      "short_name": "New",
+      "description": "Start a new support conversation",
+      "url": "/?action=new",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><defs><linearGradient id='g'><stop offset='0%' style='stop-color:%232563eb'/><stop offset='100%' style='stop-color:%231d4ed8'/></linearGradient></defs><rect fill='url(%23g)' width='96' height='96' rx='24'/><text x='48' y='68' font-size='60' font-weight='bold' fill='white' text-anchor='middle'>+</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}
